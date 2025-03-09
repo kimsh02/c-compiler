@@ -1,0 +1,15 @@
+kwIF : if
+ID : this
+kwRETURN : return
+ID : that
+kwWHILE : while
+opDIV : /
+opMUL : *
+opDIV : /
+INTCON : 123
+ID : hello
+ID : world
+opADD : +
+LPAREN : (
+RPAREN : )
+RPAREN : )

@@ -1,0 +1,6 @@
+opEQ : ==
+opNE : !=
+opGT : >
+opGE : >=
+opLT : <
+opLE : <=
