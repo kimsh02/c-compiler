@@ -38,12 +38,12 @@ if (ENABLE_COVERAGE)
 endif()
 
 # Headers
-include_directories(${CMAKE_SOURCE_DIR})
+include_directories(${CMAKE_SOURCE_DIR}/headers)
 # Implementation
 file(GLOB SOURCES_CPP
-  ${CMAKE_SOURCE_DIR}/*.cpp)
+  ${CMAKE_SOURCE_DIR}/src/*.cpp)
 file(GLOB SOURCES_C
-  ${CMAKE_SOURCE_DIR}/*.c)
+  ${CMAKE_SOURCE_DIR}/src/*.c)
 
 add_executable(c-compiler ${SOURCES_CPP} ${SOURCES_C})
 # add_executable(c-compiler ${SOURCES_CPP})
